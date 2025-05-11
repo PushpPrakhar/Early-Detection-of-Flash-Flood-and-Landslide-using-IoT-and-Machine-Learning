@@ -12,12 +12,9 @@ A real-time early warning system that uses IoT sensor networks and machine learn
 - [Tech Stack](#-tech-stack)
 - [Hardware Components](#-hardware-components)
 - [Machine Learning Models](#-machine-learning-models)
-- [Folder Structure](#-folder-structure)
-- [Installation](#-installation)
 - [Usage](#-usage)
 - [Limitations](#-limitations)
 - [Future Enhancements](#-future-enhancements)
-- [Team](#-team)
 - [License](#-license)
 
 ---
