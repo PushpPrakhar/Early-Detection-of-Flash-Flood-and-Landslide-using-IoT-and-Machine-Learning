@@ -183,3 +183,9 @@ This project integrates:
 - ✅ **Secure Communication with HTTPS/TLS and OAuth-based Access**  
   Implement encryption and role-based access control to ensure data privacy and secure system usage.
 
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for full license details.
