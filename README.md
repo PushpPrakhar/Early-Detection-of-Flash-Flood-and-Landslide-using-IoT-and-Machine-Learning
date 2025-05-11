@@ -7,7 +7,7 @@ A real-time early warning system that uses IoT sensor networks and machine learn
 ## 📖 Table of Contents
 
 - [Overview](#-overview)
-- [System Architecture](#-system-architecture)
+- [System Architecture](#-system_architecture)
 - [Key Features](#-key-features)
 - [Tech Stack](#-tech-stack)
 - [Hardware Components](#-hardware-components)
