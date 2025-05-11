@@ -15,6 +15,7 @@ A real-time early warning system that uses IoT sensor networks and machine learn
 - [Usage](#-usage)
 - [Limitations](#-limitations)
 - [Future Enhancements](#-future-enhancements)
+- [Team](#-team)
 - [License](#-license)
 
 ---
@@ -182,6 +183,14 @@ This project integrates:
 
 ---
 
+## 👨‍💻 Team
+
+- Pushp Prakhar Bhardwaj
+- Mahak Bansal
+- Kanishka Soni
+- **Project Guide:** Vikas Thapa
+
+---
 ## 📜 License
 
 This project is licensed under the **MIT License**.  
