@@ -34,4 +34,4 @@ This project integrates:
 
 ## 🏗️ System Architecture
 
-![System Architecture](images/system-architecture.png)
+![System Architecture](images/system_architecture.png)
