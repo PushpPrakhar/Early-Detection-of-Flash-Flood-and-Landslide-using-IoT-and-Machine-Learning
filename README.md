@@ -134,3 +134,52 @@ This project integrates:
 
 ---
 
+
+## ⚠️ Limitations
+
+- ⚙️ **Sensor Dependency**  
+  Inaccurate or uncalibrated sensors can result in false positives or missed alerts, affecting the reliability of the system.
+
+- 🌐 **Connectivity Issues**  
+  LoRa and GSM modules may experience network outages in remote, mountainous areas, causing delays in data transmission and alert delivery.
+
+- 💾 **No Edge ML Yet**  
+  Machine learning inference currently depends on a cloud or local server. The absence of on-device (edge) ML limits real-time prediction in offline scenarios.
+
+- 📉 **Thresholds Static**  
+  The system currently uses static environmental thresholds. It needs enhancement to support terrain-aware, dynamic thresholding for more accurate predictions.
+
+- 🔐 **Data Security**  
+  Sensor data is not encrypted during transmission or storage, posing a risk of interception or tampering in unsecured environments.
+
+- 👥 **No Public Interface**  
+  There is no web or mobile interface available for local residents to view risk levels or receive alerts directly.
+
+---
+
+## 🔭 Future Enhancements
+
+- ✅ **Deploy Edge AI Models (e.g., TinyML on ESP32)**  
+  Enable real-time inference directly on microcontrollers without relying on cloud connectivity.
+
+- ✅ **Redundant Sensors & LoRa Mesh for Fault Tolerance**  
+  Improve system reliability with sensor redundancy and fault-tolerant communication using LoRa mesh networking.
+
+- ✅ **Terrain-Aware Dynamic Thresholding**  
+  Implement adaptive thresholds based on terrain type using elevation and satellite data for more accurate predictions.
+
+- ✅ **Admin & Resident Web/Mobile Interfaces**  
+  Develop user-friendly dashboards and mobile apps to allow residents and authorities to monitor risk levels and alerts.
+
+- ✅ **Offline Alerts (Buzzer + LED + Local Storage)**  
+  Ensure alerts can be delivered even without internet by using hardware indicators and local data buffering.
+
+- ✅ **Live Monitoring Dashboard (Grafana or React-based)**  
+  Create a real-time dashboard to visualize sensor data, system health, and alert history for administrators.
+
+- ✅ **Continuous Model Learning via Pipelines (MLflow, Airflow)**  
+  Automate the retraining of ML models based on new data to improve predictive performance over time.
+
+- ✅ **Secure Communication with HTTPS/TLS and OAuth-based Access**  
+  Implement encryption and role-based access control to ensure data privacy and secure system usage.
+
