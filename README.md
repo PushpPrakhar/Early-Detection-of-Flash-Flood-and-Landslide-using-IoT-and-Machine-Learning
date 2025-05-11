@@ -130,10 +130,7 @@ This project integrates:
 4. **Risk-Based Alerting**  
    - If risk level is `Warning` or `Critical`:
      - 🚨 Buzzer and LEDs are activated for immediate local notification.
-     - 📲 SMS alerts are sent using the `alerting/sms_alert.py` script:
-       ```bash
-       python alerting/sms_alert.py --risk Critical --zone "Dehradun North"
-       ```
+     
 
 ---
 
